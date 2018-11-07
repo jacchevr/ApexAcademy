@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 0,
+        "skipped": 1,
+        "passRate": "NaN%",
+        "failRate": "NaN%",
+        "testStartTime": "Nov 7, 2018 1:21 AM",
+        "testExecutionTime": "0 ms",
+        "testTotalTime": "0 ms",
+        "commandTime": "3173 ms",
+        "hostname": "https://bbbs-case-contest-dev-ed.my.salesforce.com",
+        "orgId": "00Df2000001MjWfEAK",
+        "username": "jacques@bbbs.com",
+        "testRunId": "707f200004rW8xm",
+        "userId": "005f2000009AHHeAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v44.0/tooling/sobjects/ApexTestResult/07Mf20000064zHrEAI"
+            },
+            "Id": "07Mf20000064zHrEAI",
+            "QueueItemId": "709f2000000MeqQAAS",
+            "StackTrace": null,
+            "Message": "Method validateHelloWorld does not exist in the the apex class with Id :01pf2000008oEpm",
+            "AsyncApexJobId": "707f200004rW8xmAAC",
+            "MethodName": "validateHelloWorld",
+            "Outcome": "Skip",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v44.0/tooling/sobjects/ApexClass/01pf2000008oEpmAAE"
+                },
+                "Id": "01pf2000008oEpmAAE",
+                "Name": "HelloWorldTestClass",
+                "NamespacePrefix": null
+            },
+            "RunTime": 0,
+            "FullName": "HelloWorldTestClass.validateHelloWorld"
+        }
+    ]
+}
