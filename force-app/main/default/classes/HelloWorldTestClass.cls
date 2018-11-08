@@ -13,4 +13,3 @@ private class HelloWorldTestClass {
     }
 
 }
-

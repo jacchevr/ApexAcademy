@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Nov 7, 2018 9:01 PM",
+        "testExecutionTime": "540 ms",
+        "testTotalTime": "540 ms",
+        "commandTime": "4489 ms",
+        "hostname": "https://bbbs-case-contest-dev-ed.my.salesforce.com",
+        "orgId": "00Df2000001MjWfEAK",
+        "username": "jacques@bbbs.com",
+        "testRunId": "707f200004rvHgF",
+        "userId": "005f2000009AHHeAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v44.0/tooling/sobjects/ApexTestResult/07Mf200000657JWEAY"
+            },
+            "Id": "07Mf200000657JWEAY",
+            "QueueItemId": "709f2000000MeyfAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "707f200004rvHgFAAU",
+            "MethodName": "DeduperReminderTest",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v44.0/tooling/sobjects/ApexClass/01pf2000008oHhgAAE"
+                },
+                "Id": "01pf2000008oHhgAAE",
+                "Name": "DedupeReminderTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 540,
+            "FullName": "DedupeReminderTest.DeduperReminderTest"
+        }
+    ]
+}
