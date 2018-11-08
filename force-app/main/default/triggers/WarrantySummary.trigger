@@ -5,7 +5,7 @@ trigger WarrantySummary on Case (before insert) {
         Date purchaseDate = myCase.Product_Purchase_Date__c;
         DateTime createdDate = DateTime.now();
         Integer warrantyDays = myCase.Product_Total_Warranty_Days__c.intValue();
-        Decimal warrantyPercentage = purchaseDate.daysBetween(Date.today()) / myCase.Product_Total_Warranty_Days__c;
+        Decimal warrantyPercentage = 100 * (purchaseDate.daysBetween(Date.today()) / myCase.Product_Total_Warranty_Days__c);
         Boolean hasExtendedWarranty = myCase.Product_Has_Extended_Warranty__c;
 
         // Populate summary field
