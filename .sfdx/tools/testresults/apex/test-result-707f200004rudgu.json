@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Nov 7, 2018 5:36 PM",
+        "testExecutionTime": "630 ms",
+        "testTotalTime": "630 ms",
+        "commandTime": "5132 ms",
+        "hostname": "https://bbbs-case-contest-dev-ed.my.salesforce.com",
+        "orgId": "00Df2000001MjWfEAK",
+        "username": "jacques@bbbs.com",
+        "testRunId": "707f200004rudgu",
+        "userId": "005f2000009AHHeAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v44.0/tooling/sobjects/ApexTestResult/07Mf200000654sJEAQ"
+            },
+            "Id": "07Mf200000654sJEAQ",
+            "QueueItemId": "709f2000000Mew6AAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "707f200004rudguAAA",
+            "MethodName": "createOpportunity",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v44.0/tooling/sobjects/ApexClass/01pf2000008oHAwAAM"
+                },
+                "Id": "01pf2000008oHAwAAM",
+                "Name": "AppleWatchTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 630,
+            "FullName": "AppleWatchTest.createOpportunity"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2018-11-07T17:36:06-07:00" hostname="https://bbbs-case-contest-dev-ed.my.salesforce.com" tests="1" failures="0"  errors="0"  time="0.63">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Nov 7, 2018 5:36 PM"/>
+            <property name="testExecutionTime" value="0.63 s"/>
+            <property name="testTotalTime" value="0.63 s"/>
+            <property name="commandTime" value="5.13 s"/>
+            <property name="hostname" value="https://bbbs-case-contest-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00Df2000001MjWfEAK"/>
+            <property name="username" value="jacques@bbbs.com"/>
+            <property name="testRunId" value="707f200004rudgu"/>
+            <property name="userId" value="005f2000009AHHeAAO"/>
+        </properties>
+        <testcase name="createOpportunity" classname="AppleWatchTest" time="0.63">
+        </testcase>
+    </testsuite>
+</testsuites>
